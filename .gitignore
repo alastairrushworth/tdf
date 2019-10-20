@@ -1,0 +1,8 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.csv
+*.Rproj
+cycling_clean.R
+cycling_data.R

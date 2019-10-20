@@ -1,0 +1,31 @@
+---
+output: github_document
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  fig.path = "man/figures/README-"
+)
+```
+
+
+# `tdf`
+
+Installation 
+---
+
+To install the development version of the package, use
+```{r, eval = FALSE}
+devtools::install_github("alastairrushworth/tdf")
+```
+
+Usage
+---
+
+Load the package and type `winners` to see the data
+
+```{r}
+library(tdf)
+head(winners[1:10,])
+```
+
