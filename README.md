@@ -3,7 +3,7 @@
 
 ## Installation
 
-To install the development version of the package, use
+To install the package, use
 
 ``` r
 devtools::install_github("alastairrushworth/tdf")
@@ -11,38 +11,42 @@ devtools::install_github("alastairrushworth/tdf")
 
 ## Usage
 
-Load the package and type `winners` to see the data
+Load the package and check out the help file
 
 ``` r
 library(tdf)
-head(winners[1:10,])
+?winners
 ```
 
-    ##   start_date nationality                name           team distance
-    ## 1 1903-07-01      France       Maurice Garin   La Française     2428
-    ## 2 1904-07-02      France        Henri Cornet          Conte     2428
-    ## 3 1905-07-09      France   Louis Trousselier Peugeot–Wolber     2994
-    ## 4 1906-07-04      France        René Pottier Peugeot–Wolber     4637
-    ## 5 1907-07-08      France Lucien Petit-Breton Peugeot–Wolber     4488
-    ## 6 1908-07-13      France Lucien Petit-Breton Peugeot–Wolber     4497
-    ##       time   margin stage_wins stages_led            full_name       born
-    ## 1 94.55389 2.989167          3          6                 <NA> 03/03/1871
-    ## 2 96.09861 2.270556          1          3                 <NA> 04/08/1884
-    ## 3       NA       NA          5         10                 <NA> 29/06/1881
-    ## 4       NA       NA          5         12                 <NA> 05/06/1879
-    ## 5       NA       NA          2          5 Lucien Georges Mazan 18/10/1882
-    ## 6       NA       NA          5         13 Lucien Georges Mazan 18/10/1882
-    ##         died weight height                 nickname      birth_town
-    ## 1 19/02/1957     60   1.62 The Little Chimney-sweep          Arvier
-    ## 2 18/03/1941     NA     NA    Le rigolo (The joker)         Desvres
-    ## 3 24/04/1939     NA     NA      Levaloy / Trou-trou           Paris
-    ## 4 25/01/1907     NA     NA                     <NA> Moret-sur-Loing
-    ## 5 20/12/1917     NA     NA      Lucien Petit-Breton          Plessé
-    ## 6 20/12/1917     NA     NA      Lucien Petit-Breton          Plessé
-    ##   birth_country
-    ## 1         Italy
-    ## 2        France
-    ## 3        France
-    ## 4        France
-    ## 5        France
-    ## 6        France
+Quick summary of the columns and their contents
+
+``` r
+tibble::glimpse(winners)
+
+Observations: 106
+Variables: 19
+$ edition       <int> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,…
+$ start_date    <date> 1903-07-01, 1904-07-02, 1905-07-09, 1906-07-04, 1907-07-08, 1…
+$ winner_name   <chr> "Maurice Garin", "Henri Cornet", "Louis Trousselier", "René Po…
+$ winner_team   <chr> "La Française", "Conte", "Peugeot–Wolber", "Peugeot–Wolber", "…
+$ distance      <dbl> 2428, 2428, 2994, 4637, 4488, 4497, 4498, 4734, 5343, 5289, 52…
+$ time_overall  <dbl> 94.55389, 96.09861, NA, NA, NA, NA, NA, NA, NA, NA, 197.90000,…
+$ time_margin   <dbl> 2.98916667, 2.27055556, NA, NA, NA, NA, NA, NA, NA, NA, 0.1355…
+$ stage_wins    <dbl> 3, 1, 5, 5, 2, 5, 6, 4, 2, 3, 1, 1, 1, 4, 2, 0, 3, 4, 4, 2, 3,…
+$ stages_led    <dbl> 6, 3, 10, 12, 5, 13, 13, 3, 13, 13, 8, 15, 2, 14, 14, 3, 6, 15…
+$ height        <dbl> 1.62, NA, NA, NA, NA, NA, 1.78, NA, NA, NA, NA, NA, NA, NA, NA…
+$ weight        <dbl> 60, NA, NA, NA, NA, NA, 88, NA, NA, NA, NA, NA, NA, NA, NA, NA…
+$ age           <int> 32, 19, 24, 27, 24, 25, 22, 22, 26, 23, 23, 24, 33, 30, 33, 36…
+$ born          <date> 1871-03-03, 1884-08-04, 1881-06-29, 1879-06-05, 1882-10-18, 1…
+$ died          <date> 1957-02-19, 1941-03-18, 1939-04-24, 1907-01-25, 1917-12-20, 1…
+$ full_name     <chr> NA, NA, NA, NA, "Lucien Georges Mazan", "Lucien Georges Mazan"…
+$ nickname      <chr> "The Little Chimney-sweep", "Le rigolo (The joker)", "Levaloy …
+$ birth_town    <chr> "Arvier", "Desvres", "Paris", "Moret-sur-Loing", "Plessé", "Pl…
+$ birth_country <chr> "Italy", "France", "France", "France", "France", "France", "Fr…
+$ nationality   <chr> " France", " France", " France", " France", " France", " Franc…
+```
+
+## Comments? Suggestions? Issues?
+
+Any feedback is welcome\! Feel free to write a github issue or send me a
+message on [twitter](https://twitter.com/rushworth_a).

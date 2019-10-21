@@ -4,7 +4,28 @@
 \name{winners}
 \alias{winners}
 \title{Tour de France winners data}
-\format{A \code{dataframe} with 106 rows and 17 columns.}
+\format{A \code{dataframe} with 106 rows and 17 columns.
+\describe{
+\item{edition}{The edition of the Tour de France}
+\item{start_date}{Start of the tour de France edition}
+\item{winner_name}{Name of the winner of General Classification}
+\item{winner_team}{Team name of the winning rider}
+\item{distance}{Overall route distance (km)}
+\item{time_overall}{Winning time in hours}
+\item{time_margin}{Difference between winning time and runner up in hours}
+\item{stage_wins}{Stages won by overall winner}
+\item{stages_led}{Number of stages spent in the yellow jersey}
+\item{height}{Rider height in meters}
+\item{weight}{Rider weight in kilograms}
+\item{age}{Rider age at race start}
+\item{born}{Date of borth of rider}
+\item{died}{Date of death of rider}
+\item{full_name}{Full name of rider (if different to \code{winner_name})}
+\item{nickname}{Nickname of rider}
+\item{birth_town}{Birth town or rider}
+\item{birth_country}{Birth country of rider}
+\item{nationality}{Nationality of rider}
+}}
 \usage{
 data(winners)
 }
