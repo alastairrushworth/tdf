@@ -1,4 +1,4 @@
-#' Tour de France winners data
+#' Information about winners of the Tour de France General Classification
 #'
 #' @docType data
 #'
@@ -6,27 +6,34 @@
 #'
 #' @format A \code{dataframe} with 106 rows and 17 columns.
 #'\describe{
-#' \item{edition}{The edition of the Tour de France}
-#' \item{start_date}{Start of the tour de France edition}
-#' \item{winner_name}{Name of the winner of General Classification}
-#' \item{winner_team}{Team name of the winning rider}
-#' \item{distance}{Overall route distance (km)}
-#' \item{time_overall}{Winning time in hours}
-#' \item{time_margin}{Difference between winning time and runner up in hours}
-#' \item{stage_wins}{Stages won by overall winner}
-#' \item{stages_led}{Number of stages spent in the yellow jersey}
-#' \item{height}{Rider height in meters}
-#' \item{weight}{Rider weight in kilograms}
-#' \item{age}{Rider age at race start}
-#' \item{born}{Date of borth of rider}
-#' \item{died}{Date of death of rider}
-#' \item{full_name}{Full name of rider (if different to \code{winner_name})}
-#' \item{nickname}{Nickname of rider}
-#' \item{birth_town}{Birth town or rider}
-#' \item{birth_country}{Birth country of rider}
-#' \item{nationality}{Nationality of rider}
+#' \item{\code{edition}}{The edition of the Tour de France}
+#' \item{\code{start_date}}{Start of the Tour de France edition}
+#' \item{\code{winner_name}}{Name of the winner of the General Classification}
+#' \item{\code{winner_team}}{Team name of the winning rider}
+#' \item{\code{distance}}{Overall route distance (km)}
+#' \item{\code{time_overall}}{Winning time in hours}
+#' \item{\code{time_margin}}{Difference between winning time and runner up in hours}
+#' \item{\code{stage_wins}}{Stages won by overall winner}
+#' \item{\code{stages_led}}{Number of stages spent in the yellow jersey}
+#' \item{\code{height}}{Rider height in meters}
+#' \item{\code{weight}}{Rider weight in kilograms}
+#' \item{\code{age}}{Rider age at \code{start_date}}
+#' \item{\code{born}}{Date of borth of rider}
+#' \item{\code{died}}{Date of death of rider}
+#' \item{\code{full_name}}{Full name of rider (if different to \code{winner_name})}
+#' \item{\code{nickname}}{Nickname of rider}
+#' \item{\code{birth_town}}{Birth town or rider}
+#' \item{\code{birth_country}}{Birth country of rider}
+#' \item{\code{nationality}}{Nationality of rider}
 #' }
 #' @keywords datasets
+#' @details Winning times are those as at the conclusion of each race.  Several
+#' winners were subsequently disqualified or excluded after the race finished
+#' for doping or other rule violations, and a runner-up awarded the win.
+#'
+#' Data sourced from \href{https://en.wikipedia.org/}{Wikipedia}.  If you find
+#' these data useful, please consider
+#' \href{https://donate.wikimedia.org/}{making a donation to Wikimedia}.
 #'
 #' @examples
 #' data(winners)
