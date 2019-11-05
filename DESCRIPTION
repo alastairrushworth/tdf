@@ -1,10 +1,10 @@
 Package: tdf
-Title: Tour de France winners data
-Version: 0.0.0.9000
+Title: Tour de France data
+Version: 0.0.1
 Authors@R: c(
     person("Alastair", "Rushworth", email = "alastairmrushworth@gmail.com", role = c("aut", "cre"))
   )
-Description: Data about winners of the Tour de France.
+Description: Historic data about Tour de France riders, stages and winners.
 License: GPL-2
 Depends: R (>= 3.5.0)
 Encoding: UTF-8
@@ -13,3 +13,4 @@ LazyData: true
 URL: https://alastairrushworth.github.io/tdf/
 BugReports: http://github.com/alastairrushworth/tdf/issues
 RoxygenNote: 6.1.1
+Suggests: testthat (>= 2.1.0)

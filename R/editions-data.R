@@ -1,8 +1,8 @@
-#' Information about winners of the Tour de France General Classification
+#' Historic data about Tour de France riders, stages and winners.
 #'
 #' @docType data
 #'
-#' @usage data(winners)
+#' @usage data(editions)
 #'
 #' @format A \code{dataframe} with 106 rows and 17 columns.
 #'\describe{
@@ -25,6 +25,7 @@
 #' \item{\code{birth_town}}{Birth town or rider}
 #' \item{\code{birth_country}}{Birth country of rider}
 #' \item{\code{nationality}}{Nationality of rider}
+#' \item{\code{stage_results}}{Each element is a list of dataframes containing stage results for each edition.}
 #' }
 #' @keywords datasets
 #' @details Winning times are those as at the conclusion of each race.  Several
@@ -36,6 +37,6 @@
 #' \href{https://donate.wikimedia.org/}{making a donation to Wikimedia}.
 #'
 #' @examples
-#' data(winners)
-#' head(winners)
+#' data(editions)
+#' head(editions)
 "winners"

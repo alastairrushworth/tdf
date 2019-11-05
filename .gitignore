@@ -6,3 +6,9 @@
 *.Rproj
 cycling_clean.R
 cycling_data.R
+temp/
+stages_clean.R
+stages_gather.R
+helpers.R
+instructions.R
+
