@@ -6,7 +6,7 @@ Authors@R: c(
   )
 Description: Historic data about Tour de France riders, stages and winners.
 License: GPL-2
-Depends: R (>= 3.5.0)
+Depends: R (>= 3.5.0), tibble
 Encoding: UTF-8
 Language: en_GB
 LazyData: true
