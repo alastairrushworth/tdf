@@ -18,9 +18,6 @@ library(tdf)
 ?editions
 ```
 
-    ## No documentation for 'editions' in specified packages and libraries:
-    ## you could try '??editions'
-
 Quick summary of the columns and their contents
 
 ``` r
