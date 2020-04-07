@@ -1,7 +1,6 @@
 #' Historic data about Tour de France riders, stages and winners.
 #'
 #' @docType data
-#'
 #' @usage data(editions)
 #'
 #' @format A \code{dataframe} with 106 rows and 17 columns.
@@ -39,4 +38,4 @@
 #' @examples
 #' data(editions)
 #' head(editions)
-"winners"
+"editions"

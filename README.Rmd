@@ -24,7 +24,7 @@ Usage
 
 Load the package and check out the help file
 
-```{r}
+```{r, eval = FALSE}
 library(tdf)
 ?editions
 ```
