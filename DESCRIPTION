@@ -13,4 +13,3 @@ LazyData: true
 URL: https://alastairrushworth.github.io/tdf/
 BugReports: http://github.com/alastairrushworth/tdf/issues
 RoxygenNote: 7.1.0
-Suggests: testthat (>= 2.1.0)
