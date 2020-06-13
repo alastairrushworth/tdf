@@ -1,4 +1,8 @@
 
+[![Build
+Status](https://travis-ci.org/alastairrushworth/tdf.svg?branch=master)](https://travis-ci.org/alastairrushworth/tdf)
+[![codecov](https://codecov.io/gh/alastairrushworth/tdf/branch/master/graph/badge.svg)](https://codecov.io/gh/alastairrushworth/tdf)
+
 # `tdf`
 
 ## Installation
