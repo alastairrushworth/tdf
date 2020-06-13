@@ -1,2 +1,3 @@
 ^tdf\.Rproj$
 ^\.Rproj\.user$
+^\.travis\.yml$
