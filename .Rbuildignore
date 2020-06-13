@@ -1,4 +1,15 @@
 ^tdf\.Rproj$
 ^\.Rproj\.user$
 ^\.travis\.yml$
-^readme.rmd$
+^readme\.rmd$
+^temp$
+^helpers\.r$
+^instructions\.r$
+^cycling_clean\.r$
+^cycling_data\.r$
+^cyclists\.csv$
+^cyclists_tidied\.csv$
+^winners\.csv$
+^rider_stats\.csv$
+^stages_clean\.r$
+^stages_gather\.r$
