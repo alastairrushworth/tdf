@@ -26,8 +26,6 @@
 #' \item{\code{nationality}}{Nationality of rider}
 #' \item{\code{stage_results}}{Each element is a list of dataframes containing stage results for each edition.}
 #' }
-#' @import tibble
-#' @import lubridate
 #' @keywords datasets
 #' @details Winning times are those as at the conclusion of each race.  Several
 #' winners were subsequently disqualified or excluded after the race finished
