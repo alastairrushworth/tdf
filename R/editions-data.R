@@ -27,6 +27,7 @@
 #' \item{\code{stage_results}}{Each element is a list of dataframes containing stage results for each edition.}
 #' }
 #' @keywords datasets
+#' @import lubridate
 #' @details Winning times are those as at the conclusion of each race.  Several
 #' winners were subsequently disqualified or excluded after the race finished
 #' for doping or other rule violations, and a runner-up awarded the win.
