@@ -21,3 +21,4 @@ new_row = tibble(
   "stage_results" = NA
 )
 editions <- rbind(editions,new_row)
+usethis::use_data(editions, overwrite = TRUE)
