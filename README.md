@@ -54,3 +54,8 @@ $ stage_results <named list> [[<data.frame[37 x 8]>, <data.frame[35 x 8]>, <data
 
 Any feedback is welcome\! Feel free to write a github issue or send me a
 message on [twitter](https://twitter.com/rushworth_a).
+
+## Rider Notes
+
+- Disqualifications
+- Doping violations
